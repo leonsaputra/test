@@ -1,17 +1,17 @@
 class EN(object):
-    INIT_MSG = "<b>Hello {} Sir</b>"
+    INIT_MSG = "<b>Halo {} ♡</b>"
 
     START_TEXT = """
-<b>Hello {} Sir</b>,
-Iam a Tidal DL Bot. Used to download songs from Tidal.
+<b>Halo {} ♡</b>,
+Saya Soobin. Gunakan Saya Untuk Mengunduh Lagu dari Tidal.
 """
 
     HELP_MSG = """
-<b>Hello {} Sir</b>,
+<b>Halo {} Tuan</b>,
 
-Iam a Tidal DL Bot. Used to download songs from tidal.com.
+Saya Soobin. Gunakan Aku Untuk mengunduh lagu dari tidal.com.
 
-You can download all songs at master quality.
+Anda Dapat Mengunduh banyak lagu dengan kualitas master.
 
 Click Commands Button to see available commands.
 """
@@ -21,8 +21,8 @@ Click Commands Button to see available commands.
 
 The commands for the bot are described below:
 
-<code>/{1}</code> - Shows help message.
-<code>/{2}</code> - Downloads the song from Tidal Link.
+<code>/{1}</code> - Memperlihatkan Pesan bantuan.
+<code>/{2}</code> - Mengunduh lagu dari Link Tidal.
 <code>/{3}</code> - Authenticates the bot in the chat<b>[ADMIN ONLY]</b>.
 <code>/{4}</code> - Runs a shell command <b>[ADMIN ONLY]</b>.
 <code>/{5}</code> - Open Settings Panel of Bot. <b>[ADMIN ONLY]</b>.
@@ -55,17 +55,17 @@ Flags are :
     INLINE_NO_RESULT = "No results found"
 
     INPUT_MESSAGE_TRACK = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-💿 <b>Album :</b> {2}
-🕒 <b>Duration :</b> {3}
+ <b>Title :</b> {0}
+ <b>Artist :</b> {1}
+ <b>Album :</b> {2}
+ <b>Duration :</b> {3}
 """
 
     INPUT_MESSAGE_ALBUM = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📀 <b>Tracks :</b> {2}
-📅 <b>Release Date :</b> {3}
+ <b>Title :</b> {0}
+ <b>Artist :</b> {1}
+ <b>Tracks :</b> {2}
+ <b>Release Date :</b> {3}
 """
 
     INLINE_MEDIA_SEARCH = """
@@ -79,12 +79,12 @@ Flags are :
 #
 #
     ALBUM_DETAILS = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
-🕒 <b>Duration :</b> {4}
-🔢 <b>Number of Volumes :</b> {5}
+ <b>Title :</b> {0}
+ <b>Artist :</b> {1}
+ <b>Release Date :</b> {2}
+ <b>Number of Tracks :</b> {3}
+ <b>Duration :</b> {4}
+ <b>Number of Volumes :</b> {5}
 """
 #
 #
@@ -130,16 +130,16 @@ API Key Valid : <code>{2}</code>
 # BUTTONS
 #
 #
-    JOIN_MUSIC_STORAGE = "Join Music Storage"
-    GET_FILE = "Get File"
+    JOIN_MUSIC_STORAGE = "Join Penyimpanan Lagu"
+    GET_FILE = "Dapatkan File"
     LOGIN_TIDAL = "Click To Login"
     TG_AUTH = "TG AUTHS"
     TIDAL_AUTH = "TIDAL AUTH"
-    CLOSE = "CLOSE"
+    CLOSE = "Tutup"
     REMOVE_TIDAL_AUTH = "Remove Auth"
     ADD_TIDAL_AUTH = "Add Auth"
     MAIN_MENU = "MAIN MENU"
-    COMMANDS = "COMMANDS"
+    COMMANDS = "Perintah"
     BOT_LANGUAGE = "BOT LANGUAGE"
     TIDAL_QUALITY = "TIDAL QUALITY - {}"
     TIDAL_QUALITY_HIFI = "HIFI"
@@ -147,10 +147,10 @@ API Key Valid : <code>{2}</code>
     TIDAL_QUALITY_MASTER = "MASTER"
     TIDAL_QUALITY_NORMAL = "NORMAL"
     # INLINE BUTTONS
-    SEARCH_AGAIN = "Search Again"
-    MUSIC_C_JOIN = "Join Music Storage"
-    LINK = "Link"
-    SEARCH = "Search"
+    SEARCH_AGAIN = "Cari Lagi"
+    MUSIC_C_JOIN = "Join Penyimpanan Lagu"
+    LINK = "Tautan"
+    SEARCH = "Cari"
     API_KEY_BUTTON = "API KEY"
 
 #
