@@ -32,8 +32,8 @@ Help for each command is in shown when you type the command.
 Feel free to ask doubts in Discussion Group.
 """
 
-    INIT_DOWNLOAD = "Trying to initialize download..."
-    FILE_EXIST = "File already exist in the channel.\n\nTitle : <code>{}</code>\n\nClick below to get file."
+    INIT_DOWNLOAD = "Mencoba Mengunduh..."
+    FILE_EXIST = "File sudah ada di channel.\n\nTitle : <code>{}</code>\n\nClick below to get file."
     ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
     NO_AUTH = "AUTH DISABLED"
 #
@@ -51,21 +51,21 @@ Flags are :
 <code>-a</code> for album from tidal
 <code>-d</code> song from dump channel
 """
-    INLINE_PLACEHOLDER = "Click here for the help with search."
-    INLINE_NO_RESULT = "No results found"
+    INLINE_PLACEHOLDER = "Klik sini untuk bantuan inline."
+    INLINE_NO_RESULT = "Pencarian tidak ditemukan"
 
     INPUT_MESSAGE_TRACK = """
- <b>Title :</b> {0}
- <b>Artist :</b> {1}
- <b>Album :</b> {2}
- <b>Duration :</b> {3}
+<b>Title :</b> {0}
+<b>Artist :</b> {1}
+<b>Album :</b> {2}
+<b>Duration :</b> {3}
 """
 
     INPUT_MESSAGE_ALBUM = """
- <b>Title :</b> {0}
- <b>Artist :</b> {1}
- <b>Tracks :</b> {2}
- <b>Release Date :</b> {3}
+<b>Title :</b> {0}
+<b>Artist :</b> {1}
+<b>Tracks :</b> {2}
+<b>Release Date :</b> {3}
 """
 
     INLINE_MEDIA_SEARCH = """
