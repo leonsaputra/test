@@ -79,12 +79,12 @@ Flags are :
 #
 #
     ALBUM_DETAILS = """
- <b>Title :</b> {0}
- <b>Artist :</b> {1}
- <b>Release Date :</b> {2}
- <b>Number of Tracks :</b> {3}
- <b>Duration :</b> {4}
- <b>Number of Volumes :</b> {5}
+<b>Judul:</b> {0}
+<b>Artis:</b> {1}
+<b>Tanggal Rilis:</b> {2}
+<b>Total Track:</b> {3}
+<b>Durasi:</b> {4}
+<b>Jumlah Volume:</b> {5}
 """
 #
 #
