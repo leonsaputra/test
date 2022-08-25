@@ -14,9 +14,9 @@ if not os.environ.get("ENV"):
 
 class Config(object):
     try:
-        TG_BOT_TOKEN = getenv("TG_BOT_TOKEN")
-        APP_ID = int(getenv("APP_ID", 123))
-        API_HASH = getenv("API_HASH")
+        TG_BOT_TOKEN = getenv("TG_BOT_TOKEN", "5539042973:AAHsiwj1_UsZ5vZ-4jNEsshSX5t9r9bBZLw")
+        APP_ID = int(getenv("APP_ID", "10545971"))
+        API_HASH = getenv("API_HASH", "523293b62d5810a3b448314351e3f470")
        
     except:
         LOGGER.warning("Essential TG Configs are missing")
@@ -27,7 +27,7 @@ class Config(object):
     try:
         AUTH_CHAT = set(int(x) for x in getenv("AUTH_CHAT").split())
     except:
-        AUTH_CHAT = ""
+        AUTH_CHAT = "-1001669613967"
     try:
         ADMINS = set(int(x) for x in getenv("ADMINS").split())
     except:
@@ -38,7 +38,7 @@ class Config(object):
         LOG_CHANNEL_ID = int(getenv("LOG_CHANNEL_ID"))
     except:
         LOG_CHANNEL_ID = None
-    ALLOW_DUMP = getenv("ALLOW_DUMP", False)
+    ALLOW_DUMP = getenv("ALLOW_DUMP", True)
 
     try:
         SEARCH_CHANNEL = int(getenv("SEARCH_CHANNEL"))
@@ -62,10 +62,10 @@ class Config(object):
     INLINE_THUMB = getenv("INLINE_THUMB", "")
     
     # Country code for Tidal API (in caps)
-    TIDAL_REGION = getenv("TIDAL_REGION", "IN")
-    TIDAL_SEARCH_LIMIT = int(getenv("TIDAL_SEARCH_LIMIT", 10))
+    TIDAL_REGION = getenv("TIDAL_REGION", "GB")
+    TIDAL_SEARCH_LIMIT = int(getenv("TIDAL_SEARCH_LIMIT", 25))
     
-    BOT_USERNAME = getenv("BOT_USERNAME", "")
+    BOT_USERNAME = getenv("BOT_USERNAME", "@soobinzxbot")
     if not BOT_USERNAME:
         LOGGER.warning("NO BOT USERNAME FOUND")
         exit(1)
@@ -78,7 +78,7 @@ class Config(object):
     MUSIC_CHANNEL_LINK = getenv("MUSIC_CHANNEL_LINK", "")
     BOT_LANGUAGE = getenv("BOT_LANGUAGE", "en")
 
-    ALLOW_OTHER_LINKS = getenv("ALLOW_OTHER_LINKS", False)
+    ALLOW_OTHER_LINKS = getenv("ALLOW_OTHER_LINKS", True)
 
     if BOT_USERNAME.startswith("@"):
         BOT_USERNAME = BOT_USERNAME[1:]
